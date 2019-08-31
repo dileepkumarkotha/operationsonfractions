@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8303009A2316098F0013CB1D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830300992316098F0013CB1D /* main.swift */; };
+		833106F92319F4EF00E3862F /* FractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833106F82319F4EF00E3862F /* FractionTests.swift */; };
+		833106FB2319F51800E3862F /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833106FA2319F51800E3862F /* StringExtensionTests.swift */; };
+		8385D65D2317A70F00B5DF83 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385D65C2317A70F00B5DF83 /* Fraction.swift */; };
+		8385D65F2317A76200B5DF83 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385D65E2317A76200B5DF83 /* String+Extension.swift */; };
+		8385D6612317A9DD00B5DF83 /* ArithmeticOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385D6602317A9DD00B5DF83 /* ArithmeticOperations.swift */; };
+		83B61BDB2318A997006788B6 /* ArithmeticOperationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B61BDA2318A997006788B6 /* ArithmeticOperationsTests.swift */; };
+		83B61BE12318DAC4006788B6 /* ArithmeticOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385D6602317A9DD00B5DF83 /* ArithmeticOperations.swift */; };
+		83B61BE22318DAD0006788B6 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385D65C2317A70F00B5DF83 /* Fraction.swift */; };
+		83B61BE32318DAD3006788B6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385D65E2317A76200B5DF83 /* String+Extension.swift */; };
+		83B61BE42318DAD7006788B6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830300992316098F0013CB1D /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +35,25 @@
 /* Begin PBXFileReference section */
 		830300962316098F0013CB1D /* OperationsOnFractions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OperationsOnFractions; sourceTree = BUILT_PRODUCTS_DIR; };
 		830300992316098F0013CB1D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		833106F82319F4EF00E3862F /* FractionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractionTests.swift; sourceTree = "<group>"; };
+		833106FA2319F51800E3862F /* StringExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
+		8385D65C2317A70F00B5DF83 /* Fraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
+		8385D65E2317A76200B5DF83 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		8385D6602317A9DD00B5DF83 /* ArithmeticOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperations.swift; sourceTree = "<group>"; };
+		83B61BD82318A996006788B6 /* OperationsOnFractionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OperationsOnFractionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B61BDA2318A997006788B6 /* ArithmeticOperationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperationsTests.swift; sourceTree = "<group>"; };
+		83B61BDC2318A997006788B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		830300932316098F0013CB1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B61BD52318A996006788B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				830300982316098F0013CB1D /* OperationsOnFractions */,
+				83B61BD92318A997006788B6 /* OperationsOnFractionsTests */,
 				830300972316098F0013CB1D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				830300962316098F0013CB1D /* OperationsOnFractions */,
+				83B61BD82318A996006788B6 /* OperationsOnFractionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +85,22 @@
 			isa = PBXGroup;
 			children = (
 				830300992316098F0013CB1D /* main.swift */,
+				8385D6602317A9DD00B5DF83 /* ArithmeticOperations.swift */,
+				8385D65C2317A70F00B5DF83 /* Fraction.swift */,
+				8385D65E2317A76200B5DF83 /* String+Extension.swift */,
 			);
 			path = OperationsOnFractions;
+			sourceTree = "<group>";
+		};
+		83B61BD92318A997006788B6 /* OperationsOnFractionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				83B61BDA2318A997006788B6 /* ArithmeticOperationsTests.swift */,
+				833106F82319F4EF00E3862F /* FractionTests.swift */,
+				833106FA2319F51800E3862F /* StringExtensionTests.swift */,
+				83B61BDC2318A997006788B6 /* Info.plist */,
+			);
+			path = OperationsOnFractionsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +113,7 @@
 				830300922316098F0013CB1D /* Sources */,
 				830300932316098F0013CB1D /* Frameworks */,
 				830300942316098F0013CB1D /* CopyFiles */,
+				830300A023160B610013CB1D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -81,6 +123,23 @@
 			productName = OperationsOnFractions;
 			productReference = 830300962316098F0013CB1D /* OperationsOnFractions */;
 			productType = "com.apple.product-type.tool";
+		};
+		83B61BD72318A996006788B6 /* OperationsOnFractionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B61BDF2318A997006788B6 /* Build configuration list for PBXNativeTarget "OperationsOnFractionsTests" */;
+			buildPhases = (
+				83B61BD42318A996006788B6 /* Sources */,
+				83B61BD52318A996006788B6 /* Frameworks */,
+				83B61BD62318A996006788B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OperationsOnFractionsTests;
+			productName = OperationsOnFractionsTests;
+			productReference = 83B61BD82318A996006788B6 /* OperationsOnFractionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -93,6 +152,9 @@
 				ORGANIZATIONNAME = personal;
 				TargetAttributes = {
 					830300952316098F0013CB1D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					83B61BD72318A996006788B6 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -110,9 +172,40 @@
 			projectRoot = "";
 			targets = (
 				830300952316098F0013CB1D /* OperationsOnFractions */,
+				83B61BD72318A996006788B6 /* OperationsOnFractionsTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83B61BD62318A996006788B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		830300A023160B610013CB1D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -R \"${BUILT_PRODUCTS_DIR}/OperationsOnFractions\" \"${PROJECT_DIR}/bin\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		830300922316098F0013CB1D /* Sources */ = {
@@ -120,6 +213,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				8303009A2316098F0013CB1D /* main.swift in Sources */,
+				8385D65F2317A76200B5DF83 /* String+Extension.swift in Sources */,
+				8385D65D2317A70F00B5DF83 /* Fraction.swift in Sources */,
+				8385D6612317A9DD00B5DF83 /* ArithmeticOperations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B61BD42318A996006788B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B61BE32318DAD3006788B6 /* String+Extension.swift in Sources */,
+				83B61BE42318DAD7006788B6 /* main.swift in Sources */,
+				833106FB2319F51800E3862F /* StringExtensionTests.swift in Sources */,
+				83B61BE22318DAD0006788B6 /* Fraction.swift in Sources */,
+				83B61BDB2318A997006788B6 /* ArithmeticOperationsTests.swift in Sources */,
+				83B61BE12318DAC4006788B6 /* ArithmeticOperations.swift in Sources */,
+				833106F92319F4EF00E3862F /* FractionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +294,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -238,6 +349,7 @@
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -245,6 +357,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/OperationsOnFractionsTests/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.operations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -254,6 +368,42 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/OperationsOnFractionsTests/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.operations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		83B61BDD2318A997006788B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OperationsOnFractionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.OperationsOnFractionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		83B61BDE2318A997006788B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OperationsOnFractionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.OperationsOnFractionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -276,6 +426,15 @@
 			buildConfigurations = (
 				8303009E2316098F0013CB1D /* Debug */,
 				8303009F2316098F0013CB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B61BDF2318A997006788B6 /* Build configuration list for PBXNativeTarget "OperationsOnFractionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B61BDD2318A997006788B6 /* Debug */,
+				83B61BDE2318A997006788B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
